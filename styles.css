@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #ECDBBA;
+}
+
+.first-box{
+    height: 600px;
+    background-color: #ECDBBA;
+    margin: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 20px ;
+}
+.menu{
+    display: grid;
+    grid-template-columns: 36px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+@media (min-width:769px) {
+    .menu{
+        display: none;
+    }
+}
+
+.menu-desk{
+    display: none;
+}
+@media (min-width:769px) {
+    .menu-desk{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 80px;
+        font-size: 24px;
+        font-weight: 1000;
+        color: #346751;
+    }
+}
+
+.line{
+    background-color: #346751;
+    height: 10px;
+}
+
+.logo{
+    width: auto;
+    height: 80px;
+}
+@media (min-width:769px) {
+    .logo{
+        width: auto ;
+        height: 109px;
+    }
+}
+
+/* FIN DEL HEADER */
+.block2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@media (min-width:769px) {
+    .block2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.titulo-bienvenidos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 48px;
+}
+
+.messi-photo{
+    margin-bottom: 0%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0%;
+    margin-top: 4%;
+    width: 250px;
+}
+
+/* Fin de la PRIMERA BOX */
+/* Blackbox */
+
+.second-box{
+    display:grid;
+    grid-column: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 538px;
+    background-color: black;
+    margin: 0;
+}
+@media (min-width:769px) {
+    .second-box{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}    
+
+.soy-facu-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #C84B31;
+    font-size: 32px;
+}
+
+.about-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #346751;
+    margin: 0 5%;
+    font-size: 16px;
+}
+@media(min-width:769px){
+    .about-me{
+        font-size: 24px;
+    }
+}
+
+.div-check{
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+@media(min-width:769px){
+    .div-check{
+        grid-column:1;
+        grid-row: 1/ span 2;
+    }
+}
+
+.check{
+    width: 80px;
+    height: 80px;
+}
+@media(min-width:769px){
+    .check{
+        width: 211px;
+        height: 211px;
+    }
+}
+
+
+/* FIN de la SEGUNDA BOX */
+/* LARGE BOX */
+.large-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+@media(min-width:769px){
+    .check{
+        width: 211px;
+        height: 211px;
+    }
+}
+.mis-servicios-title{
+    color: #C84B31;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 48px;
+
+}
+@media(min-width:769px){
+    .mis-servicios-title{
+        font-size: 32px;
+    }
+}
+@media(min-width:769px){
+    .servicios-descripcion{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.first-part{
+    padding:50px 0;
+
+}
+
+.desk1{
+    width: 138px;
+    height: 138px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hago-cosas-title{
+    color: #346751;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+}
+
+.hago-cosas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2% 20%;
+    font-size: 16px;
+}
+
+/* Hago cosas 2 */
+.second-part{
+    padding:50px 0;
+}
+
+.third-part{
+    padding:50px 0;
+}
+
+
+/* FIN LARGEBOX */
+/* ESCRIBIME */
+
+.escribime{
+    height: 660px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+@media(min-width: 769px){
+    .escribime{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+.escribime-title{
+    color: #C84B31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 32px;
+}
+@media(min-width:769px){
+    .escribime-title{
+        font-size: 48px;
+        margin-right: 15%;
+        margin-bottom: 23%;
+    }
+}
+
+.form{
+    color: #346751;
+    display: grid;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    
+}
+
+.line-text{
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    width: 335px;
+    height: 45px;
+    
+}
+
+.text-form{
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    width: 335px;
+    height: 113px;
+    
+}
+
+.enviar-btn{
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    width: 335px;
+    height: 45px;
+    background-color: #C84B31;
+    margin: 5% 0%;
+    font-size: 16px;
+}
+
+.enviar-btn:active {
+    background-color: #346751;
+}
+
+
+/* FIN ESCRIBIME */
+/* FOOTER */
+
+.footer{
+    height: 493px;
+    display: grid;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px;
+}
+@media(min-width: 769px){
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content:center;
+        margin: 0 15%;
+    }
+}
+
+.up-left{
+    margin: 25px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+}
+.foot-logo{
+    width: 77px;
+}
+
+.down-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.social{
+    display: flex;
+    align-content: center;
+    margin: 25px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.social:active{
+    color: #346751;
+}
+.social:hover{
+    color: #346751;
+}
+.socialimg{
+    height: 27px;
+    width:27px;
+    margin: 0 5px;
+}
+
+/*  */
