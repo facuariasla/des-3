@@ -86,8 +86,14 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0%;
-    margin-top: 4%;
-    width: 250px;
+    margin-top: 2%;
+    width: 180px;
+}
+@media(min-width:769px){
+    .messi-photo{
+        width: 230px;
+        margin-top: 10%;
+    }
 }
 
 /* Fin de la PRIMERA BOX */
