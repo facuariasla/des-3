@@ -17,13 +17,13 @@
 
 <body>
     <div class="first-box">
-        <header class="header">
+        <header class="header" id="top">
             <img class="logo" src="./images/AF-icon.png" alt="">
            
             <div class="menu-desk">
-                <nav>quien soy</nav>
-                <nav>servicios</nav>
-                <nav>escribime</nav>
+                <nav><a href="#quiensoy1" class="menu-options">quien soy</a></nav>
+                <nav><a href="#servicios1" class="menu-options">servicios</a></nav>
+                <nav><a href="#escribime1" class="menu-options">escribime</a></nav>
             </div>
 
             <div class="menu">
@@ -40,7 +40,7 @@
     </div>
 
     <div class="second-box">
-        <div class="quien-soy">
+        <div class="quien-soy" id="quiensoy1">
         <h2 class="soy-facu-title">Soy Facu</h2>
         <section class="about-me"> Algo interesante sobre mi Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Error, unde consequuntur. Temporibus quam quis asperiores nostrum atque sit officia, a quas repellendus quo.
@@ -55,7 +55,7 @@
     </div>
 
     <!-- largebox -->
-    <div class="large-box">
+    <div class="large-box" id="servicios1">
         <h2 class="mis-servicios-title">Mis servicios</h2>
         
         <div class="servicios-descripcion">
@@ -83,7 +83,7 @@
     </div>
 
     <!-- Escribime -->
-    <div class="escribime">
+    <div class="escribime" id="escribime1">
         <h2 class="escribime-title">Escribime</h2>
         <div class="form">
             <label for="nombre">NOMBRE</label>
@@ -99,7 +99,7 @@
     <!-- footer -->
     <footer class="footer">
         <div class="up-left">
-            <img class="foot-logo" src="./images/AF-icon.png" alt="logo">
+            <a href="#top"> <img class="foot-logo" src="./images/AF-icon.png" alt="logo"></a>
             <div class="derechos-reservados">
                 © 2021 Facundo
             </div>
